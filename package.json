@@ -1,0 +1,20 @@
+{
+  "name": "CJohnDesign Site Build Template",
+  "version": "v1.0",
+  "description": "Workflow Setup with Bootstrap, Sass and Grunt",
+  "repository" :
+  { "type" : "git", 
+  "url" : "https://github.com/npm/npm.git"},
+  "email": "cjohndesign@gmail.com",
+  "license": "(MIT OR Apache-2.0)",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-compass": "~0.5.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "matchdep": "~0.1.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
