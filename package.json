@@ -1,10 +1,11 @@
 {
-  "name": "CJohnDesign Site Build Template",
-  "version": "v1.0",
-  "description": "Workflow Setup with Bootstrap, Sass and Grunt",
-  "repository" :
-  { "type" : "git", 
-  "url" : "https://github.com/npm/npm.git"},
+  "name": "MDAMap",
+  "version": "0.0.1",
+  "description": "Interactive Map Framework",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  },
   "email": "cjohndesign@gmail.com",
   "license": "(MIT OR Apache-2.0)",
   "dependencies": {
@@ -15,6 +16,7 @@
     "matchdep": "~0.1.2"
   },
   "devDependencies": {
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1",
+    "topojson": "^2.2.0"
   }
 }
