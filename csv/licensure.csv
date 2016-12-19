@@ -1,53 +1,53 @@
-id,State,Application Type,State Controlled Substance,Perm License Timeframe,FCVS,Locum License,Locum License Timeframe,Fingerprints,Special Notes
-1,Alabama,Paper,Yes,8-12 Weeks,No,No,N/A,Yes,None
-2,Alaska,Paper,No,8-12 Weeks,No,Yes,8 Weeks,No,Locum License valid for 90 days. One 60 day extension may be requested.
-4,Arizona,,,,,,,,
-5,Arkansas,,,,,,,,
-6,California,,,,,,,,
-8,Colorado,,,,,,,,
-9,Connecticut,,,,,,,,
-10,Delaware,,,,,,,,
-11,District of Columbia,,,,,,,,
-12,Florida,,,,,,,,
-13,Georgia,,,,,,,,
-15,Hawaii,,,,,,,,
-16,Idaho,,,,,,,,
-17,Illinois,,,,,,,,
-18,Indiana,,,,,,,,
-19,Iowa,,,,,,,,
-20,Kansas,,,,,,,,
-21,Kentucky,,,,,,,,
-22,Louisiana,,,,,,,,
-23,Maine,,,,,,,,
-24,Maryland,,,,,,,,
-25,Massachusetts,,,,,,,,
-26,Michigan,,,,,,,,
-27,Minnesota,,,,,,,,
-28,Mississippi,,,,,,,,
-29,Missouri,,,,,,,,
-30,Montana,,,,,,,,
-31,Nebraska,,,,,,,,
-32,Nevada,,,,,,,,
-33,New Hampshire,,,,,,,,
-34,New Jersey,,,,,,,,
-35,New Mexico,,,,,,,,
-36,New York,,,,,,,,
-37,North Carolina,,,,,,,,
-38,North Dakota,,,,,,,,
-39,Ohio,,,,,,,,
-40,Oklahoma,,,,,,,,
-41,Oregon,,,,,,,,
-42,Pennsylvania,,,,,,,,
-44,Rhode Island,,,,,,,,
-45,South Carolina,,,,,,,,
-46,South Dakota,,,,,,,,
-47,Tennessee,,,,,,,,
-48,Texas,,,,,,,,
-49,Utah,,,,,,,,
-50,Vermont,,,,,,,,
-51,Virginia,,,,,,,,
-53,Washington,,,,,,,,
-54,West Virginia,,,,,,,,
-55,Wisconsin,,,,,,,,
-56,Wyoming,,,,,,,,
-72,Puerto Rico,,,,,,,,
+State,Application Type,State Controlled Substance,Perm License Timeframe,FCVS,Locum License,Locum License Timeframe,Fingerprints,Special Notes
+Alabama,Paper,Yes,8-12 Weeks,No,No,N/A,Yes,None
+Alaska,Paper,No,8-12 Weeks,No,Yes,8 Weeks,No,Locum License valid for 90 days. One 60 day extension may be requested.
+Arizona,test,test,test,test,test,test,test,test
+Arkansas,test,test,test,test,test,test,test,test
+California,test,test,test,test,test,test,test,test
+Colorado,test,test,test,test,test,test,test,test
+Connecticut,test,test,test,test,test,test,test,test
+Delaware,test,test,test,test,test,test,test,test
+District of Columbia,test,test,test,test,test,test,test,test
+Florida,test,test,test,test,test,test,test,test
+Georgia,test,test,test,test,test,test,test,test
+Hawaii,test,test,test,test,test,test,test,test
+Idaho,test,test,test,test,test,test,test,test
+Illinois,test,test,test,test,test,test,test,test
+Indiana,test,test,test,test,test,test,test,test
+Iowa,test,test,test,test,test,test,test,test
+Kansas,test,test,test,test,test,test,test,test
+Kentucky,test,test,test,test,test,test,test,test
+Louisiana,test,test,test,test,test,test,test,test
+Maine,test,test,test,test,test,test,test,test
+Maryland,test,test,test,test,test,test,test,test
+Massachusetts,test,test,test,test,test,test,test,test
+Michigan,test,test,test,test,test,test,test,test
+Minnesota,test,test,test,test,test,test,test,test
+Mississippi,test,test,test,test,test,test,test,test
+Missouri,test,test,test,test,test,test,test,test
+Montana,test,test,test,test,test,test,test,test
+Nebraska,test,test,test,test,test,test,test,test
+Nevada,test,test,test,test,test,test,test,test
+New Hampshire,test,test,test,test,test,test,test,test
+New Jersey,test,test,test,test,test,test,test,test
+New Mexico,test,test,test,test,test,test,test,test
+New York,test,test,test,test,test,test,test,test
+North Carolina,test,test,test,test,test,test,test,test
+North Dakota,test,test,test,test,test,test,test,test
+Ohio,test,test,test,test,test,test,test,test
+Oklahoma,test,test,test,test,test,test,test,test
+Oregon,test,test,test,test,test,test,test,test
+Pennsylvania,test,test,test,test,test,test,test,test
+Rhode Island,test,test,test,test,test,test,test,test
+South Carolina,test,test,test,test,test,test,test,test
+South Dakota,test,test,test,test,test,test,test,test
+Tennessee,test,test,test,test,test,test,test,test
+Texas,test,test,test,test,test,test,test,test
+Utah,test,test,test,test,test,test,test,test
+Vermont,test,test,test,test,test,test,test,test
+Virginia,test,test,test,test,test,test,test,test
+Washington,test,test,test,test,test,test,test,test
+West Virginia,test,test,test,test,test,test,test,test
+Wisconsin,test,test,test,test,test,test,test,test
+Wyoming,test,test,test,test,test,test,test,test
+Puerto Rico,test,test,test,test,test,test,test,test

@@ -48,17 +48,22 @@ $(document).ready(function() {
 
 	function ready (error, data, licensure) {
 
-	
+		
 
 		var state_i = 0
 
 		var states = topojson.feature(data, data.objects.states).features
 
-//		var state_ids = topojson.feature(data, data.objects.states.object[1]).features
 
-		function name_the_fuck(d){ 
+
+		function name_the_state(d){ 
 				var name = d.properties.name
 				return name
+					}
+
+		function name_the_lic(d){ 
+				var lic = d.id
+				return lic
 					}
 
 
@@ -69,7 +74,7 @@ $(document).ready(function() {
 			.enter()
 			.append("path")
 			.attr("class", "state")
-			.attr("id", name_the_fuck)
+			.attr("id", name_the_state)
 			.attr("d", path)
 			.on("mouseover", function(d) {
 				d3.select(this).classed("state--hover", true)
@@ -91,9 +96,27 @@ $(document).ready(function() {
 						state_i++, 
 						console.log(state_i)
 					}
-				if (state_i <= 1)
+				if (state_i <= 10)
 					{
-						
+						for (var i = 0; i < licensure.length; i++) {
+							var this_elem = d3.select(this).attr('id')
+							var dataState = licensure[i].State;
+							if (this_elem == dataState) {
+								d3.select("#tbody")
+								.append("tr")
+								console.log(licensure[i].length)
+								.append("td")
+								.text(licensure[i].id)
+								.parent.append("td")
+								.text(licensure[i].state)
+								.append("td")
+								.text(licensure[i]["Application Type"])
+							}
+							else {
+								console.log(dataState)
+								console.log("fuck")
+							}
+						}
 					}
 				else {console.log("fail")}
 
@@ -106,7 +129,7 @@ $(document).ready(function() {
 			.attr("id", "info_table")
 			.style("border", "2px solid #9ba725")
 			var thead = info.append("thead")
-			var tbody = info.append("tbody")
+			var tbody = info.append("tbody").attr("id", "tbody")
 			thead.append("tr")
 				.selectAll("th")
 				.data(d3.keys(licensure[0]))
