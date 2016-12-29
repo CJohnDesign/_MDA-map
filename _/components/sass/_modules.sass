@@ -1,0 +1,855 @@
+*
+  margin: 0
+  padding: 0
+
+body
+  font: 14px/1.4 Georgia, Serif
+
+#page-wrap
+  margin: 50px
+
+p
+  margin: 20px 0
+
+/* 
+ *Generic Styling, for Desktops/Laptops
+
+table
+  width: 100%
+  border-collapse: collapse
+
+/* Zebra striping
+
+tr:nth-of-type(odd)
+  background: #efefef
+
+th
+  background: $mda_purp
+  color: white
+  font-weight: bold
+  font-family: Lato, san-serif
+  text-transform: uppercase
+
+td, th
+  padding: 6px
+  border: 1px solid #ccc
+  text-align: left
+
+th:first-child
+  width                   : 10em
+
+td:first-child
+  width                   : 10em
+
+
+
+/*
+ *Max width before this PARTICULAR table gets nasty
+ *This query will take effect for any screen smaller than 760px
+ *and also iPads specifically.
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px)
+  .state-row
+    margin-bottom     : 1em
+  /* Force table to not be like tables anymore
+  table, thead, tbody, th, td, tr
+    display: block
+  /* Hide table headers (but not display: none;, for accessibility)
+  thead tr
+    position: absolute
+    top: -9999px
+    left: -9999px
+  tr
+    border: 1px solid #ccc
+  td:first-child
+    width : 100%
+    text-align: center
+    padding   : .65em 0 .75em
+    background-color: $mda_purp
+    color: white
+  td
+    /* Behave like a "row"
+    border: none
+    border-bottom: 1px solid #eee
+    position: relative
+    text-align: right
+    padding-left: 50%
+    &:before
+      /* Now like a table header
+      position: absolute
+      /* Top/left values mimic padding
+      top: 6px
+      left: 6px
+      width: 45%
+      padding-right: 10px
+      white-space: nowrap
+    &:nth-of-type(1):before
+      content: ""
+      text-align: center
+      padding: 0
+      width: 100%
+    &:nth-of-type(2):before
+      content: "Application Type"
+      text-align: left
+    &:nth-of-type(3):before
+      content: "State Controlled Substance"
+      text-align: left
+    &:nth-of-type(4):before
+      content: "Perm License Timeframe"
+      text-align: left
+    &:nth-of-type(5):before
+      content: "FCVS"
+      text-align: left
+    &:nth-of-type(6):before
+      content: "Locum License"
+      text-align: left
+    &:nth-of-type(7):before
+      content: "Locum License Timeframe"
+      text-align: left
+    &:nth-of-type(8):before
+      content: "Fingerprints"
+      text-align: left
+    &:nth-of-type(9):before
+      content: "Special Notes"
+      text-align: left
+  /*
+   *Label the data
+
+/* Smartphones (portrait and landscape) -----------
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+  body
+    padding: 0
+    margin: 0
+    width: 320px
+
+/* iPads (portrait and landscape) -----------
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+  body
+    width: 495px
+
+
+
+
+
+/* Main Styles
+
+html
+  position: relative
+  min-height: 100%
+
+body
+  margin-bottom: 0px
+
+h1
+  color: #57367D
+  font-size: 1.8em
+  text-decoration: none
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+  line-height: 1.2em
+  font-weight: normal
+  margin: 0px 0 10px 0
+
+h2
+  color: #738027
+  font-size: 1.5em
+  text-decoration: none
+  font-family: "Tahoma", sans-serif
+  line-height: 1.2em
+  font-weight: normal
+
+h5
+  color: #5B3482
+  font-size: 1.1em
+  text-decoration: none
+  font-family: "Tahoma", sans-serif
+  line-height: 1.2em
+  font-weight: normal
+
+h3
+  color: #8A923E
+  font-size: 1.3em
+  text-decoration: none
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+  line-height: 1.3em
+  font-weight: normal
+
+h4
+  color: #8A923E
+  font-size: 1.3em
+  text-decoration: none
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+  line-height: 1.3em
+  font-weight: normal
+  margin-top: 4px
+
+p
+  font-family: Arial, Helvetica, sans-serif
+  font-size: 1em
+  font-weight: normal
+  color: #999999
+  a
+    &:link, &:visited
+      color: #664E7F
+      text-decoration: underline
+
+a:active
+  color: #664E7F
+  text-decoration: underline
+
+p a:hover
+  color: #738027
+  text-decoration: underline
+
+h2
+  a
+    &:link, &:visited
+      color: #57367D
+      text-decoration: none
+  &:active
+    color: #57367D
+    text-decoration: none
+  a:hover
+    color: #A5C248
+    text-decoration: underline
+
+strong
+  color: #52247f
+
+li
+  color: #999999
+  line-height: 1.5em
+  a
+    &:link, &:visited, &:active
+      color: #664E7F
+      text-decoration: normal
+    &:hover
+      color: #A5C248
+      text-decoration: underline
+
+ul li li
+  margin-left: -10px
+
+.bullets li
+  color: #999999
+  list-style: none
+  line-height: 1.5em
+  &:before
+    font-family: 'FontAwesome'
+    content: '\f054'
+    margin: 1px 5px 0 -14px
+    color: #318B79
+
+.Toggle
+  padding: .5em 0
+  a
+    &:link, &:visited, &:active
+      color: #A5C248
+      text-decoration: underline
+    &:hover
+      color: #52247f
+      text-decoration: underline
+
+.navbar-text
+  color: #444444
+  font-size: 1.2em
+  text-decoration: none
+  margin-top: 30px
+  a
+    &:link
+      color: #444444
+      font-size: 1.0em
+      text-decoration: none
+    &:hover
+      color: #784C97
+      text-decoration: underline
+
+.navbar-button
+  margin-top: 10px
+
+.navbar-header
+  background-color: #FFFFFF
+
+.jumbotron
+  padding: 0px
+  margin-bottom: 15px
+
+.navbar-brand
+  padding-top: 8px
+  padding-right: 8px
+  padding-left: 8px
+  padding-bottom: 8px
+
+.navbar-default .navbar-nav >
+  li > a
+    color: #99AE44
+    text-transform: capitalize
+    &:hover
+      color: #52247f
+  .active > a
+    color: #7A8431
+    background-color: #EFEFEF
+    &:hover
+      color: #52247f
+
+.copyright
+  padding-top: 30px
+
+.container .text-muted
+  margin: 10px 0
+  color: #FFF
+  font-size: 12px
+
+.green-top
+  height: 5px
+  margin-bottom: 10px
+  background-color: #9EAA24
+  width: 100%
+
+.grey
+  background-color: #EFEFEF
+  border-top: solid #787B7D 3px
+
+.row
+  padding-top: 10px
+  padding-right: 0
+  padding-left: 0
+  padding-bottom: 10px
+  margin-left: 0
+  margin-right: 0
+
+.content-row
+  padding-top: 20px
+  padding-bottom: 30px
+
+.nopadding
+  padding: 0 !important
+  margin: 0 !important
+
+.padding
+  padding-bottom: 10px
+
+.pull-right
+  margin-bottom: 10px
+  margin-left: 10px
+
+.grey-bg-brdr
+  background-color: #FAFAFA
+  border-width: 1px
+  border-color: #666
+  margin-top: 15px
+
+/* Button Styles
+
+.btn-primary
+  color: #FFF
+  background-color: #738027
+  margin-top: 25px
+
+.btn-qjs
+  color: #FFF
+  background-color: #664E7F
+  border-color: #664E7F
+
+/* Footer Styles
+
+.footer
+  padding: 30px 0 30px 20px
+
+.footer-bg
+  background: #664D80
+
+.footer
+  h4
+    color: #FFF
+    font-size: 15px
+    margin-bottom: 5px
+    font-variant: normal
+    a
+      &:link
+        font-size: 15px
+        color: #FFF
+        margin-bottom: 8px
+        text-decoration: none
+        font-weight: bold
+        font-family: Tahoma, Arial, Helvetica, sans-serif
+        font-variant: normal
+      &:hover
+        color: #CBCFD3
+        text-decoration: underline
+        font-family: Tahoma, Arial, Helvetica, sans-serif
+        font-variant: normal
+  a
+    &:link, &:visited, &:active
+      font-size: 13px
+      color: #EFEFEF
+      text-decoration: none
+      font-family: Tahoma, Arial, Helvetica, sans-serif
+      font-variant: normal
+    &:hover
+      color: #D6D9DB
+      text-decoration: underline
+
+.footer-list
+  padding: 0
+  list-style-type: none
+  margin: 0
+  font-size: 13px
+  line-height: 26px
+  color: #FFF
+  text-transform: none
+
+.footer-copyright
+  font-size: .7em
+  text-align: center
+  padding: 15px
+  color: #999
+  padding-top: 15px
+  a
+    &:link, &:visited, &:active
+      font-size: .9em
+      color: #999
+      text-decoration: none
+    &:hover
+      color: #FFF
+      text-decoration: none
+
+.social-container
+  text-align: center
+
+/* Form Pages Styles
+
+.table-striped > tbody > tr:nth-child(odd) >
+  td, th
+    background-color: #FFF
+
+.table >
+  thead > tr > th, tbody > tr > th, tfoot > tr > th, thead > tr > td, tbody > tr > td, tfoot > tr > td
+    border: none
+
+.form-horizontal .control-label
+  text-align: center
+
+.qjs
+  padding: 10px 10px 0px 15px
+  background-color: #EFEFEF
+
+.form-control
+  background-color: #FBFBFB
+  margin-bottom: 10px
+  color: #999
+  &::-webkit-input-placeholder, &:-moz-placeholder, &::-moz-placeholder, &:-ms-input-placeholder
+    color: #999
+
+label
+  font-weight: normal
+
+.control-label
+  font-weight: bold
+  margin-top: 6px
+
+.job-result
+  width: 100%
+  border-bottom: 1px solid #E0E0E0
+  border-top: 1px solid #E0E0E0
+  p
+    margin: 15px 0 15px 0
+  a:link
+    font-size: 17px
+
+.job-result-new
+  font-weight: bold
+  color: #ED671A
+
+.job-result-pagination
+  margin-top: 20px
+
+.filter
+  margin-bottom: 520px
+
+.job-results-filter h3
+  color: #0067B3
+  font-weight: bold
+  font-size: 1.2em
+  margin: 0px
+
+.job-results-button
+  opacity: .7
+  padding: 0
+  &:hover
+    opacity: 1.0
+
+.multiselect-container
+  position: absolute
+  list-style-type: none
+  margin: 0
+  padding: 0
+  .input-group
+    margin: 5px
+  > li
+    padding: 0
+    > a.multiselect-all label
+      font-weight: 700
+    &.multiselect-group label
+      margin: 0
+      padding: 3px 20px 3px 20px
+      height: 100%
+      font-weight: 700
+    &.multiselect-group-clickable label
+      cursor: pointer
+    > a
+      padding: 0
+      > label
+        margin: 0
+        height: 100%
+        cursor: pointer
+        font-weight: 400
+        padding: 3px 20px 3px 40px
+        &.radio, &.checkbox
+          margin: 0
+        > input[type=checkbox]
+          margin-bottom: 5px
+
+.btn-group > .btn-group:nth-child(2) > .multiselect.btn
+  border-top-left-radius: 4px
+  border-bottom-left-radius: 4px
+
+.form-inline .multiselect-container
+  label
+    &.checkbox, &.radio
+      padding: 3px 20px 3px 40px
+  li a label
+    &.checkbox input[type=checkbox], &.radio input[type=radio]
+      margin-left: -20px
+      margin-right: 0
+
+/* Landing Page Styles
+
+.lp-footer
+  position: absolute
+  bottom: 0
+  width: 100%
+  height: 50px
+  margin-top: 50px
+
+.lp-form
+  float: left
+  width: 100%
+  padding: 15px 25px
+  background-color: #6A4B90
+  color: #FFF
+  font-size: 15px
+  margin-top: 25px
+  p
+    color: #FFF
+    font-size: 15px
+    margin-top: 10px
+    margin-bottom: 10px
+
+input[type="text"], select, option
+  width: 100%
+  color: #333
+
+.lp-button
+  opacity: 1.0
+  content: url("/cs/ccs-cctc/image/apply-form.png")
+  text-align: center
+  margin-top: 20px
+  &:hover
+    opacity: 0.9
+
+.push-lp
+  margin-bottom: 150px
+
+/* Multiselect Styles
+
+.multiselect-container
+  position: absolute
+  list-style-type: none
+  margin: 0
+  padding: 0
+  .input-group
+    margin: 5px
+  > li
+    padding: 0
+    > a.multiselect-all label
+      font-weight: 700
+    &.multiselect-group label
+      margin: 0
+      padding: 3px 20px 3px 20px
+      height: 100%
+      font-weight: 700
+    &.multiselect-group-clickable label
+      cursor: pointer
+    > a
+      padding: 0
+      > label
+        margin: 0
+        height: 100%
+        cursor: pointer
+        font-weight: 400
+        padding: 3px 20px 3px 40px
+        &.radio, &.checkbox
+          margin: 0
+        > input[type=checkbox]
+          margin-bottom: 5px
+
+.btn-group > .btn-group:nth-child(2) > .multiselect.btn
+  border-top-left-radius: 4px
+  border-bottom-left-radius: 4px
+
+.form-inline .multiselect-container
+  label
+    &.checkbox, &.radio
+      padding: 3px 20px 3px 40px
+  li a label
+    &.checkbox input[type=checkbox], &.radio input[type=radio]
+      margin-left: -20px
+      margin-right: 0
+
+/* Pagination Style
+
+.pagination > .active >
+  a, span, a:hover, span:hover, a:focus, span:focus
+    background-color: #9EAA32
+    border-color: #9EAA32
+
+.pagination-lg > li >
+  a, span
+    padding: 5px 8px
+    font-size: 14px
+
+@media (min-width: 1000px)
+  .dropdown:hover .dropdown-menu
+    display: block
+
+@media (max-width: 1000px)
+  .small-col
+    margin-top: 40px
+    border: medium
+    border-color: #000
+  .col-xs-6
+    width: 25%
+  .col-md-2
+    text-align: center
+
+@media (max-width: 540px)
+  .col-xs-6
+    width: auto
+    float: none
+
+/* Breaking Point Override for Mobile Navigation
+
+@media (max-width: 1000px)
+  .container
+    width: 95%
+  .navbar-default
+    background-color: #FFF
+    top: 0px
+  .col-md-3
+    text-align: center
+
+@charset "UTF-8"
+
+/* CSS Document
+
+a
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+  &:focus
+    outline: none
+
+img
+  border-style: none
+
+#main
+  margin: 0 auto
+  padding: 0px 0 0
+
+.invisible
+  display: none
+
+#container
+  height: 1%
+  padding: 0 0 10px
+  &:after
+    height: 0
+    clear: both
+    content: ''
+    display: block
+
+.inner-page-2 #container
+  padding-top: 10px
+
+.featured-image-list
+  max-width: 250px
+  float: left
+  padding-right: 15px
+  height: 100%
+
+@media (max-width: 640px)
+  .featured-image-list
+    max-width: 175px
+    float: left
+    padding-right: 15px
+    height: 100%
+
+.featured-image-detail
+  max-width: 100%
+  height: 100%
+
+.content
+  float: right
+  padding: 0px 0 0
+
+.inner-page-2
+  .content
+    padding: 0
+    width: 713px
+  .logo
+    width: 350px
+    left: 24px
+
+.inner-page .logo
+  width: 350px
+  left: 24px
+
+.main-blog-box
+  .blog-title
+    height: 1%
+    overflow: hidden
+    padding: 0 22px
+    line-height: 67px
+    h1
+      margin: 0
+      float: left
+      font-size: 30px
+      line-height: 67px
+      a:hover
+        text-decoration: none
+    .date
+      float: right
+      font-style: normal
+      font-size: 16px
+  .col-c
+    float: left
+    overflow: hidden
+    padding: 11px 0 0 11px
+    width: 95%
+  .col-ttl
+    height: 1%
+    overflow: hidden
+    background: #e8e7e7
+    font-size: 18px
+    padding: 0 12px
+    line-height: 35px
+    margin: 0 0 11px
+    p
+      float: left
+      margin: 0
+    em
+      float: right
+      font-style: normal
+  .blog-post
+    width: 100%
+    overflow: hidden
+    border-top: 1px solid #d3d3d3
+    padding: 18px 0
+    color: #5b5b5b
+  .blog-post1
+    border-top: none
+  .blog-post-profile
+    border-top: none
+    padding: 5px 0 14px
+  .blog-post
+    h2
+      font-size: 30px
+      margin: 0 0 16px
+      line-height: 30px
+      a:hover
+        text-decoration: none
+    .info
+      width: 100%
+      overflow: hidden
+      padding: 15px 0 15px
+      .avatar
+        float: left
+        width: 0
+        margin: 0
+        opacity: 0
+      .descr
+        height: 1%
+        overflow: hidden
+      dl
+        margin: 0
+        line-height: 18px
+      dt
+        display: inline
+        font-weight: bold
+      dd
+        margin: 0
+        display: inline
+    .text
+      width: 100%
+      overflow: hidden
+      font-size: 14px
+      line-height: 18px
+      p
+        margin: 0 10px 16px 0
+      img
+        display: block
+        margin: 0 0 20px
+        &.profile-photo
+          margin: 0
+    .tools
+      width: 100%
+      overflow: hidden
+      .more
+        float: right
+      p
+        float: left
+        margin: 0 22px 0 0
+
+.col-r
+  float: left
+  overflow: hidden
+  padding: 11px 11px 0 0
+  width: 100%
+  .rss-hold
+    height: 1%
+    overflow: hidden
+    padding: 10px 11px
+    border: 1px solid #dadada
+    a
+      display: block
+      line-height: 45px
+      font-weight: bold
+      font-size: 13px
+      padding: 0 0 0 59px
+      &:hover
+        text-decoration: none
+  .side-links
+    width: 100%
+    overflow: hidden
+    padding: 16px 0 0
+    .ttl
+      height: 1%
+      overflow: hidden
+      border-bottom: 1px solid #d3d3d3
+      padding: 0 12px 4px
+      h3
+        margin: 0 16px 0 0
+        display: inline
+        font-size: 20px
+    ul
+      list-style: none
+      margin: 0
+      padding: 8px 0 0 20px
+      line-height: 18px
+      font-size: 14px
+    li
+      width: 100%
+      overflow: hidden
+    .r-posts-links li
+      padding: 0 0 8px
+    ul a:hover, .ttl .nav-l a
+      text-decoration: none
