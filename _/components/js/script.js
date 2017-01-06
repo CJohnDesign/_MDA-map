@@ -58,9 +58,12 @@ $(document).ready(function() {
 		.projection(projection)
 
 	var toggleRow = function(header, stateName, licensure) {
-		var kebabCaseStateName = stateName.replace(" ", "-") // North Dakota becomes North-Dakota for proper CSS selector names
+		var kebabCaseStateName = stateName.split(' ').join('-') // North Dakota becomes North-Dakota for proper CSS selector names
 		var stateRowId = kebabCaseStateName + "-row"
 		var stateRow = document.getElementById(stateRowId)
+		console.log(kebabCaseStateName)
+		console.log(stateRowId)
+		console.log(stateRow)
 
 		if (stateRow) { // does this row exist?
 			d3.select('#' + stateRowId).remove() // remove it
@@ -117,6 +120,13 @@ $(document).ready(function() {
 				return name
 					}
 
+		function name_the_abbr(d){
+				var abbr = d.properties.abbr.abbreviation
+				console.log(abbr)
+				return abbr
+				
+					}
+
 		function name_the_lic(d){
 				var lic = d.id
 				return lic
@@ -148,14 +158,24 @@ $(document).ready(function() {
 						d3.select(this).classed("state--selected", true);
 					}
 			})
+//			.append("svg:text") 
+//			.text(name_the_state) 
+//			.attr("x", function(d){return path.centroid(d)[0];})
+//			.attr("y", function(d){return path.centroid(d)[1];})
+//			.attr("dy", ".35em")
+			svg.selectAll(".stateText")
+		        .data(states)
+		        .enter().append("text")
+		        .attr("x", function(d) {
+		            return path.centroid(d)[0];
+		        })
+		        .attr("y", function(d) {
+		            return path.centroid(d)[1];
+		        })
+		        .attr("text-anchor", "middle")
+		        .attr("font-size", "12px")
+		        .text(name_the_abbr)
 		}
-
-setTimeout(function () {
-
-    console.log('hi')
-}, 1500);
-
-
 
 
 
