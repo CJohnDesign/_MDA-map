@@ -4,6 +4,7 @@ MDA Licensure Map is a D3.js application that displays crucial licensure informa
 
 ## View Map:
 [Licensure Map - Medical Doctors](https://www.mdainc.com/licensure-map-md)
+
 [Licensure Map - Advanced Practice](https://www.mdainc.com/licensure-map-ap)
 
 > (MIT License)
