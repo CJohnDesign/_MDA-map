@@ -1,53 +1,52 @@
 State,Application Type,State Controlled Substance,Perm License Timeframe,FCVS,Locum License,Locum License Timeframe,Fingerprints,Special Notes
-Alabama,Paper,Yes,8-12 Weeks,No,No,N/A,Yes,None
-Alaska,Paper,No,8-12 Weeks,No,Yes,8 Weeks,No,Locum License valid for 90 days. One 60 day extension may be requested.
-Arizona,test,test,test,test,test,test,test,test
-Arkansas,test,test,test,test,test,test,test,test
-California,test,test,test,test,test,test,test,test
-Colorado,test,test,test,test,test,test,test,test
-Connecticut,test,test,test,test,test,test,test,test
-Delaware,test,test,test,test,test,test,test,test
-District of Columbia,test,test,test,test,test,test,test,test
-Florida,test,test,test,test,test,test,test,test
-Georgia,test,test,test,test,test,test,test,test
-Hawaii,test,test,test,test,test,test,test,test
-Idaho,test,test,test,test,test,test,test,test
-Illinois,test,test,test,test,test,test,test,test
-Indiana,test,test,test,test,test,test,test,test
-Iowa,test,test,test,test,test,test,test,test
-Kansas,test,test,test,test,test,test,test,test
-Kentucky,test,test,test,test,test,test,test,test
-Louisiana,test,test,test,test,test,test,test,test
-Maine,test,test,test,test,test,test,test,test
-Maryland,test,test,test,test,test,test,test,test
-Massachusetts,test,test,test,test,test,test,test,test
-Michigan,test,test,test,test,test,test,test,test
-Minnesota,test,test,test,test,test,test,test,test
-Mississippi,test,test,test,test,test,test,test,test
-Missouri,test,test,test,test,test,test,test,test
-Montana,test,test,test,test,test,test,test,test
-Nebraska,test,test,test,test,test,test,test,test
-Nevada,test,test,test,test,test,test,test,test
-New Hampshire,test,test,test,test,test,test,test,test
-New Jersey,test,test,test,test,test,test,test,test
-New Mexico,test,test,test,test,test,test,test,test
-New York,test,test,test,test,test,test,test,test
-North Carolina,test,test,test,test,test,test,test,test
-North Dakota,test,test,test,test,test,test,test,test
-Ohio,test,test,test,test,test,test,test,test
-Oklahoma,test,test,test,test,test,test,test,test
-Oregon,test,test,test,test,test,test,test,test
-Pennsylvania,test,test,test,test,test,test,test,test
-Rhode Island,test,test,test,test,test,test,test,test
-South Carolina,test,test,test,test,test,test,test,test
-South Dakota,test,test,test,test,test,test,test,test
-Tennessee,test,test,test,test,test,test,test,test
-Texas,test,test,test,test,test,test,test,test
-Utah,test,test,test,test,test,test,test,test
-Vermont,test,test,test,test,test,test,test,test
-Virginia,test,test,test,test,test,test,test,test
-Washington,test,test,test,test,test,test,test,test
-West Virginia,test,test,test,test,test,test,test,test
-Wisconsin,test,test,test,test,test,test,test,test
-Wyoming,test,test,test,test,test,test,test,test
-Puerto Rico,test,test,test,test,test,test,test,test
+Alabama,Paper,Yes,8-12 Weeks,No,No,N/A,Yes,SMB accepts FCVS
+Alaska,Paper,No,8-12 Weeks,No,Yes,8 Weeks,No,SMB accepts FCVS. Locum License valid for 90 days. One 60 day extension may be requested.
+Arizona,Paper,No,4-6 Weeks MD/6-12 Weeks DO,No,Yes,4 Weeks MD/2 Weeks DO,Yes MD/No DO,SMB accepts FCVS for MD and DO. LT License good for 180 consecutive days
+Arkansas,Paper,No,8-10 Weeks,No,No,N/A,Yes,SMB accepts FCVS
+California,Paper,No,8-10 Months MD/10-12 Weeks DO,No,No,N/A,Yes,SMB accepts FCVS for MD and DO
+Colorado,Paper,No,6-8 Weeks,No,No,N/A,No,SMB accepts FCVS
+Connecticut,Paper,Yes,6-8 Weeks,No,No,N/A,No,SMB accepts FCVS
+Delaware,Paper,Yes,6-8 Weeks,No,No,N/A,Yes,SMB accepts FCVS. Require Personal Interview
+District of Columbia,Paper,Yes,8-10 Weeks,No,No,N/A,Yes,SMB accepts FCVS
+Florida,Online,No,8-10 Weeks MD/6-8 Weeks DO,No,No,N/A,Yes,SMB accepts FCVS for MD and DO
+Georgia,Online,No,6-8 Weeks,No,No,N/A,No,SMB accepts FCVS
+Hawaii,Paper,Yes,6-8 Weeks,No,No,N/A,No,SMB accepts FCVS
+Idaho,Online,Yes,4-6 Weeks,No,No,N/A,Yes,SMB accepts FCVS
+Illinois,Paper,Yes,6-8 Weeks,No,No,N/A,Yes,SMB accepts FCVS
+Indiana,Online,Yes,4-6 Weeks,No,Yes,2 Weeks,Yes,SMB accepts FCVS. LT license while you obtain Perm license and is valid for 30 days
+Iowa,Online,Yes,8-10 Weeks,No,No,N/A,Yes,SMB accepts FCVS
+Kansas,Online,No,6-8 Weeks,No,No,N/A,Yes,SMB accepts FCVS
+Kentucky,Online,No,10-12 Weeks,Yes,No,N/A,Yes,Requires FCVS Profile for all applicants for licensure
+Louisiana,Paper,Yes,10-12 Weeks,Yes,No,N/A,Yes,Requires FCVS Profile for all applicants for licensure
+Maine,Online,No,9-11 Weeks,Yes,Yes,2-3 Weeks,Yes,SMB accepts FCVS for DO.  Requires FCVS Profile for MD applicants for licensure
+Maryland,Paper,Yes,2-3 Months,Yes,No,N/A,Yes,SMB accepts FCVS
+Massachusetts,Paper,No,4-6 Months,No,Yes,8-12 Weeks,Yes,SMB accepts FCVS. Require Personal Interview
+Michigan,Paper,Yes,6-8 Weeks MD & DO,No,No,N/A,Yes,SMB accepts FCVS for MD and DO. IMGs seeking licensure by endorsement to have existing license from another jurisdiction
+Minnesota,Online,No,10-12 Weeks,No,No,N/A,No,SMB accepts FCVS. Require Personal Interview
+Mississippi,Online,No,6-8 Weeks,No,No,N/A,Yes,SMB accepts FCVS. Require Personal Interview
+Missouri,Paper,Yes,6-8 Weeks,No,No,N/A,No,SMB accepts FCVS
+Montana,Online,No,6-8 Weeks,No,No,N/A,No,SMB accepts FCVS
+Nebraska,Paper,No,6-8 Weeks,No,Yes,2-4 Weeks,Yes,SMB accepts FCVS
+Nevada,Online,Yes,3-4 Months MD/10-12 Weeks,Yes DO,Yes,12 Weeks MD/4-6 Weeks DO,Yes,SMB accepts FCVS for MD. Requires FCVS Profile for Osteo applicants for licensure
+New Hampshire,Online,No,10-12 Weeks,Yes,Yes,3 Weeks,Yes,Requires FCVS Profile fo all applicants for licensure
+New Jersey,Paper  ,Yes,2-3 Months,No,No,test,Yes,SMB accepts FCVS
+New Mexico,Online MD/Paper DO,Yes,10-12 Weeks MD/8-10 Weeks DO,No,No,N/A,Yes,SMB accepts FCVS for MD and DO
+New York,Paper,No,4-6 Weeks AMG/10-12 Weeks IMG,Yes,No,N/A,No,IMGs are required to use FCVS to obtain NY License. AMG not required to use FCVS
+North Carolina,Online,No,6-8 Weeks,No,No,N/A,Yes,Requires FCVS Profile for physicians with an established FCVS Profile. Required FCVS for IMGs
+North Dakota,Online or Paper,No,4-6 Weeks,No,Yes,30 days,Yes,SMB accepts FCVS
+Ohio,Online,No,10-12 Weeks,Yes,No,N/A,Yes,Requires FCVS Profile for all applicants for licensure
+Oklahoma,Online MD/Paper DO,Yes,6-8 Weeks MD/10-12 Weeks DO,No,No,N/A,Yes,SMB accepts FCVS for MD and DO
+Oregon,Online,No,10-12 Weeks,No,Yes,10-12 Weeks,Yes,SMB accepts FCVS. Physicians may practice intermittently within Oregon for no more thatn 240 days every two years.
+Pennsylvania,Online,No,10-12 Weeks MD/6-8 Weeks DO,No,No,N/A,No,SMB accepts FCVS for MD and DO
+Rhode Island,Online,Yes,10-12 Weeks,Yes,No,N/A,No,Requires FCVS Profile for all applicants for licensure
+South Carolina,Online,Yes,6-8 Weeks,Yes,No,N/A,Yes,Requires FCVS Profile for all applicants for licensure. Requires Personal Interview
+South Dakota,Online,Yes,4-6 Weeks,No,Yes,2-3 Weeks,No,SMB accepts FCVS. LT License for a 60 day Certification
+Tennessee,Paper,No,6-8 Weeks MD/10-12 Weeks DO,No,Yes,4-6 Weeks LT Only,Yes,SMB accepts FCVS for MD and DO. Cannot apply for both LT and Perm
+Texas,Online,No,4-6 months,No,No,N/A,Yes,SMB accepts FCVS
+Utah,Paper,     ,9-11 Weeks MD/9-11 Weeks DO,Yes,No,N/A,No,Requires FCVS Profile for all applicants for licensure
+Vermont,Paper,No,10-12 Weeks MD/6-8 Weeks DO,No,No,N/A,No,SMB accepts FCVS for MD and DO
+Virginia,Online,No,3-4 months,No,No,N/A,No,SMB accepts FCVS
+Washington,Online,No,6-8 Weeks for MD/DO,Yes MD/No/DO,No,N/A,Yes MD/No DO,SMB accepts FCVS for MD and DO
+West Virginia,Online,Yes,4-6 Weeks for MD/DO,Yes MD/No/DO,No,N/A,No,SMB accepts FCVS for MD and DO. Require DO Personal Interview.
+Wisconsin,Online,No,6-8 Weeks,No,yes,6-8 Weeks,No,SMB accepts FCVS
+Wyoming,Online,Yes,4-6 Weeks,Yes,No,N/A,No,Requires FCVS Profile for all applicants for licensure

@@ -49,8 +49,8 @@ $(document).ready(function() {
 		.attr("id", "map_g")
 
 	d3.queue()
-		.defer(d3.json, "/json/us.topojson")
-		.defer(d3.csv, "/csv/licensure.csv")
+		.defer(d3.json, "/cs/cch-mda/docs/us.topojson")
+		.defer(d3.csv, "/cs/cch-mda/docs/licensure.csv")
 		.await(ready)
 
 	//Define default path generator
